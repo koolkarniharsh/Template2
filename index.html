@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="title-div container-fluid">
+    <div class="navbar-div">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#"><img class="logo-image" src="images/logo.jpg"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#TitleNavigationBar" aria-controls="TitleNavigationBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="TitleNavigationBar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#title">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3Carousel">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <section id="title">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <img class="title-image" src="images/titleImage.jpg">
+            </div>
+        </div>
+    </section>
+</div>
+
+<div id="section2" class="section2-style card">
+    <h2><i class="fa fa-list-alt section2-title-icon-color"></i> Etiam Tempor</h2>
+
+    <div class="section2-columns-div row">
+        <div class="col-lg-4 col-md-4">
+            <i class="fa fa-3x fa-hashtag section2-icon-color"></i>
+            <h3 class="section2-heading">Fermentum Posuere!</h3>
+            <p>Mi quis.</p>
+            <p>Viverra ipsum.</p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <i class="fa fa-3x fa-heart section2-icon-color"></i>
+            <h3 class="section2-heading">Ac Placerat.</h3>
+            <p>Id leo.</p>
+            <p>Erat pellentesque.</p>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <i class="fa fa-3x fa-thumbs-up section2-icon-color"></i>
+            <h3 class="section2-heading">Et Magnis!</h3>
+            <p>A arcu.</p>
+            <p>Odio eu.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section3-style container-fluid">
+    <div id="section3Carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div>
+                    <h4><i class="fa fa-quote-left section3-icon-color"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget dolor morbi non arcu risus quis varius quam.
+                        <i class="fa fa-quote-right section3-icon-color"></i>
+                    </h4>
+                    <img class="section3-image" src="images/profile.jpg">
+                    <em class="section3-para">- Volutpat Odio</em>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div>
+                    <h4><i class="fa fa-quote-left section3-icon-color"></i>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <i class="fa fa-quote-right section3-icon-color"></i>
+                    </h4>
+                    <img class="section3-image" src="images/profile.jpg">
+                    <em class="section3-para">- Facilisis Gravida</em>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#section3Carousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#section3Carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</div>
+
+<div id="gallery" class="section4 card">
+    <h2 class="section4-heading"><i class="fa fa-camera-retro section2-title-icon-color section4-heading-icon"></i> Gallery <i class="fa fa-camera-retro section2-title-icon-color section4-heading-icon"></i></h2>
+
+    <div class="row">
+        <div class="col-md-12 section4-image-left">
+             <img src="images/bodyImage.png" class="rounded" alt="image1">
+        </div>
+        <div class="col-md-12 section4-image-right">
+             <img src="images/bodyImage.png" class="rounded" alt="image2">
+        </div>
+        <div class="col-md-12 section4-image">
+            <img src="images/bodyImage.png" class="rounded" alt="image1">
+        </div>
+        <div class="col-md-12 section4-image-left">
+            <img src="images/bodyImage.png" class="rounded" alt="image1">
+        </div>
+        <br>
+        <div class="col-md-12 section4-image-right">
+            <img src="images/bodyImage.png" class="rounded" alt="image2">
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="contact-div card">
+    <h2 class="contact-div-heading">Get In Touch</h2>
+    <h3 class="contact-div-sub-heading">Lorem ipsum dolor sit amet, non elit.</h3>
+    <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+    <a class="btn btn-lg btn-outline-dark contact-div-button-placement" href="mailto:koolkarniharsh@email.com">CONTACT ME</a>
+</div>
+
+<div class="credit-div">
+    <p class="copyright">© 2018 Name Kulkarni.</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+/*Title Section*/
+.title-div {
+    background-color: #1b262c;
+    text-align: center;
+}
+
+.logo-image {
+    width: 50%;
+}
+
+.navbar-div {
+    padding: 5% 10%;
+}
+
+.nav-link {
+    padding: 0 10px;
+    font-weight: normal;
+    font-size: 1.0rem;
+}
+
+h1 {
+    font-family: 'Cormorant SC', serif;
+    color: #3283b8;
+    font-size: 3rem;
+    line-height: 2.0    /*bbe1fa*/
+}
+
+#title {
+    padding: 0 10% 5%;
+}
+
+.title-image {
+    width: 75%;
+}
+
+/*Section 2*/
+body {
+    font-family: 'Jomolhari', serif;
+    color: #1b262c;
+}
+
+.section2-style {
+    text-align: center;
+    padding: 5% 10%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.section2-heading {
+    padding-top: 10%;
+}
+
+.section2-icon-color {
+    color: #bbe1fa;
+}
+
+.section2-title-icon-color {
+    color: #3283b8;
+}
+
+.section2-icon-color:hover {
+    color: #3283b8;
+}
+
+.section2-columns-div {
+    padding: 5% 10%;
+}
+
+p {
+    color: #1b262c;
+    margin: 0;
+}
+
+/*Section3*/
+.section3-style {
+    background-color: #1b262c;
+    color: white;
+    text-align: center;
+}
+
+#section3Carousel {
+    padding: 5% 10%;
+}
+
+.section3-icon-color {
+    color: white;
+}
+
+h4 {
+    margin: 0 auto;
+    width: 70%;
+    line-height: 1.5;
+}
+
+.section3-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+.section3-para {
+    color: white;
+    font-weight: bold;
+    margin: 5%;
+}
+
+/*Section4*/
+.section4 {
+    padding: 5% 10%;
+}
+
+.section4-heading {
+    text-align: center;
+}
+
+.section4-heading-icon {
+    margin: 0 25px;
+}
+
+.section4-image {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.section4-image-left {
+   text-align: left;
+}
+
+.section4-image-right {
+    text-align: right;
+}
+
+@media (max-width:800px) {
+    .section4-image-right {
+        margin-top: 5%;
+        align-self: center;
+    }
+
+    .section4-image-left {
+        margin-top: 5%;
+        align-self: center;
+    }
+
+    .section4-image{
+        margin-top: 5%;
+    }
+}
+
+@media (min-width:800px) {
+    .section4-image-right {
+        margin-top: 2%;
+    }
+
+    .section4-image-left {
+        margin-top: 2%;
+    }
+}
+
+/*Contact Section*/
+.contact-div {
+    text-align: center;
+    padding: 5% 10%;
+    color: #1b262c;
+}
+
+.card {
+    margin: 5px;
+}
+
+.btn-outline-dark:hover {
+    background-color: #1b262c;
+}
+
+.contact-div-heading {
+    margin-bottom: 2%;
+}
+
+.contact-div-sub-heading {
+    margin: 2% auto;
+}
+
+.contact-div-button-placement {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.credit-div {
+    text-align: center;
+    background-color: #1b262c;
+    padding: 5%;
+}
+
+.copyright {
+    color: white;
+}
