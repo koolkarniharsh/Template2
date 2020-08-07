@@ -141,12 +141,12 @@ h4 {
 @media (max-width:800px) {
     .section4-image-right {
         margin-top: 5%;
-        align-self: center;
+        text-align: center;
     }
 
     .section4-image-left {
         margin-top: 5%;
-        align-self: center;
+        text-align: center;
     }
 
     .section4-image{
